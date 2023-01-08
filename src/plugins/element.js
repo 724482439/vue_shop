@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import { Button, Form, FormItem, Input, Message,Container,Header,Aside,Main,Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,MessageBox } from 'element-ui'
+import { Button, Form, FormItem, Input, Message,Container,Header,Aside,Main,Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,MessageBox,Tag,Tree,Select,Option } from 'element-ui'
 // 循环注册
-const elements = [Button, Form, FormItem, Input,Container,Header,Aside,Main,Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog]
+const elements = [Button, Form, FormItem, Input,Container,Header,Aside,Main,Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,Tag,Tree,Select,Option]
 elements.forEach(item => Vue.use(item))
 
 // 将弹框组件挂载在Vue的原型对象上

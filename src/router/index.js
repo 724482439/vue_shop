@@ -4,6 +4,9 @@ import MyLogin from '../components/MyLogin'
 import TheHome from '../components/TheHome'
 import TheWelcome from '../components/TheWelcome'
 import TheUsers from '../components/user/TheUsers'
+import UserRights from '../components/power/UserRights'
+import UserRoles from '../components/power/UserRoles'
+
 
 Vue.use(VueRouter)
 
@@ -24,6 +27,8 @@ const routes = [
     children: [
       {path:'/welcome',component:TheWelcome},
       {path:'/users',component:TheUsers},
+      {path:'/rights',component:UserRights},
+      {path:'/roles',component:UserRoles},
     ]
   }
 ]
