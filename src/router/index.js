@@ -7,6 +7,11 @@ import TheUsers from '../components/user/TheUsers'
 import UserRights from '../components/power/UserRights'
 import UserRoles from '../components/power/UserRoles'
 import GoodsCate from '../components/goods/GoodsCate'
+import GoodsParams from '../components/goods/GoodsParams'
+import GoodsList from '../components/goods/GoodsList'
+import AddGoods from '../components/goods/AddGoods'
+import OrderList from '../components/order/OrderList'
+import DataReport from '../components/report/DataReport'
 
 
 Vue.use(VueRouter)
@@ -31,6 +36,11 @@ const routes = [
       {path:'/rights',component:UserRights},
       {path:'/roles',component:UserRoles},
       {path:'/categories',component:GoodsCate},
+      {path:'/params',component:GoodsParams},
+      {path: '/goods', component: GoodsList},
+      {path: '/goods/add', component: AddGoods},
+      {path: '/orders', component: OrderList},
+      {path: '/reports', component: DataReport},
     ]
   }
 ]
